@@ -14,19 +14,17 @@ const HistoryFinanceCard: React.FC<IHistoryFinanceCard> = ({
     title,
     subtitle,
     amout,
-}) => {
-    return (
-        <Container>
-            <Tag color={ tagColor } />
+}) => (
+    <Container>
+        <Tag color={tagColor} />
 
-            <div>
-                <span>{ title }</span>
-                <small> {subtitle }</small>
-            </div>
-            <h3>{ amout }</h3>
+        <div>
+            <span>{title}</span>
+            <small> {subtitle}</small>
+        </div>
+        <h3>{amout}</h3>
 
-        </Container>
-    )
-}
+    </Container>
+)
 
 export default HistoryFinanceCard;

@@ -4,7 +4,13 @@
 
 # Plugins
     - styled-components
+    - react-countup
+    - recharts
 
 # Commands
     - yarn add @types/styled-components -D
+    - yarn add recharts
+    - yarn add @types/recharts -D
+# Graphis
+    Recharts
 
