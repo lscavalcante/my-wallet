@@ -4,7 +4,6 @@ import GlobalStyles from './styles/GlobalStyles';
 
 import { useTheme } from './hooks/theme';
 
-import dark from './styles/themes/dark';
 import Routes from './routes';
 
 const App: React.FC = () => {

@@ -37,4 +37,44 @@ export const Container = styled.div<IcontainerProps>`
         position: absolute;
         bottom: 10px;
     }
+
+    @media(max-width: 770px) {
+        > span {
+            font-size: 14px;
+        }
+
+        > h1 {
+            word-wrap: break-word;
+            font-size: 17px;
+            
+            > strong {
+                display: inline-block;
+                width: 100%;
+                font-size: 14px;
+            }
+        }
+    }
+
+    @media(max-width: 420px) {
+        width: 100%;
+
+        > h1  {
+            display: flex;
+
+            strong {
+                display: flex;
+                width: auto;
+                font-size: 17px;
+                position: initial;
+            }
+            strong:after {
+                display: inline-block;
+                width: 1px;
+                content: ' ';
+                
+            }
+        }
+        
+        
+    }
 `;
